@@ -1,0 +1,15 @@
+This is a small program written in python 3.2 to sort out the URLs in a given log file.
+
+The program takes in the number of URLs to be displayed and the name of the log file from where to source the data.
+
+It then fetches the number of URLS to be displayed that were the most referenced, and shows them in a tabular format.
+Small changes like redirecting the output to a text file by use of '>' operator on the shell can easily make this a good utility program.
+
+Usage: python3.2 HighURLFinder.py 3 log
+
+Sample Run:
+$ python3.2 HighURLFinder.py 3 log
+URL 	  	 	 References
+www.reddit.com/rit 	 6
+www.reddit.com/rpi 	 4
+www.reddit.com/uofr 	 1
